@@ -1,17 +1,14 @@
 import pandas as pd
 import math as m
-import logging
-import sys
 
-def topsis(path, impact, weight, out_name):
-    
-    data = pd.read_csv(path)
+def topsis(data, impacts, weights):
+#   data = pd.read_csv(path)
     rows = len(data.axes[0])
     cols = len(data.axes[1])
 
     df = pd.DataFrame.copy(data, deep=True)
-    weights = [int(e) for e in weight.split(',')]
-    impacts = impact.split(',')
+#   weights = [int(e) for e in weight.split(',')]
+#   impacts = impact.split(',')
 
     for i in range(1,cols):
         df.iloc[:,i] *= weights[i-1]
@@ -39,13 +36,4 @@ def topsis(path, impact, weight, out_name):
     data["Topsis Score"] = topsis
     data['Rank'] = (data['Topsis Score'].rank(method='max', ascending=False))
     data = data.astype({"Rank": int})
-    for i in range(1,rows):
-        data.iloc[:,i] = round(data.iloc[:,i],3) 
-    data.to_csv(r'%s' %out_name, index=False, header=True)
-
-path = sys.argv[1]
-impact = sys.argv[2]
-weight = sys.argv[3]
-out_name = sys.argv[4]
-
-topsis(path, impact, weight, out_name)
+    # data.iloc[:,-1].to_frame().style.highlight_max(color = 'lightgreen', axis = 0)
