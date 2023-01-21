@@ -13,7 +13,7 @@ if(dataset):
     rows = len(df.axes[0])
     cols = len(df.axes[1])
     
-    if(df.isnull().sum()!=0):
+    if(sum(df.isnull().sum())!=0):
         st.error("There are NULL values in dataset")
 
     for i in range(1,cols):
