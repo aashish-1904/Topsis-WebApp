@@ -12,6 +12,9 @@ if(dataset):
     df = pd.read_csv(dataset)
     rows = len(df.axes[0])
     cols = len(df.axes[1])
+    
+    if(df.isnull().sum()!=0):
+        st.error("There are NULL values in dataset")
 
     for i in range(1,cols):
         wg = st.slider(f"Weight for {df.columns[i]}", min_value=0.1, max_value=1.0, step=0.1, help="0 for 0% and 1 for 100%", key=i)
