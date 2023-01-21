@@ -20,18 +20,15 @@ if(dataset):
         impacts.append(imp)
 
 
-if st.button("Submit"):
-    if st.button("Submit"):
-        if(dataset):
-            topsis(df, impacts, weights)
+if st.button("Submit"): 
+    if(dataset):
+        topsis(df, impacts, weights)
     # st.dataframe(df)
     # df.style.highlight_max(color = 'lightgreen', axis = 0)
-            df['Rank'] = df['Rank'].astype(int)
-            st.table(df)
-            df.to_csv(r'ans.csv', index=False, header=True)
-            with open('ans.csv') as f:
-                st.download_button('Download CSV', f, file_name='ans.csv')
-
+        df['Rank'] = df['Rank'].astype(int)
+        st.table(df)
+        df.to_csv(r'ans.csv', index=False, header=True)
+        with open('ans.csv') as f:
+            st.download_button('Download CSV', f, file_name='ans.csv')
     else:
         st.error("You gotta upload a file first")
-    
