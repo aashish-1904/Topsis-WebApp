@@ -17,7 +17,7 @@ if(dataset):
         st.error("There are NULL values in dataset")
 
     for i in range(1,cols):
-        wg = st.slider(f"Weight for {df.columns[i]}", min_value=0.1, max_value=1.0, step=0.1, help="0 for 0% and 1 for 100%", key=i)
+        wg = st.slider(f"Weight for {df.columns[i]}", min_value=1.0, max_value=10.0, step=1.0, help="0 for 0% and 1 for 100%", key=i)
         weights.append(wg)
         imp = st.selectbox(f"Impact for {df.columns[i]}", ['+','-'],key=i*9999, help="'+' for maximize and '-' for minimize")
         impacts.append(imp)
