@@ -18,11 +18,11 @@ A demo of the application is available at [topsis.streamlit.app](https://topsis.
 
 To use the application, simply enter the alternatives and criteria that you want to evaluate, and then click the "Calculate" button. The application will then calculate the relative closeness of each alternative to the ideal solution and display the results in a table.
 
-## Diagram of the TOPSIS Process
+## TOPSIS Process
 
 The TOPSIS method consists of several steps, which are summarized in the diagram below:
 
-![TOPSIS Diagram](https://www.researchgate.net/publication/338653937/figure/fig1/AS:812243018416130@1568345754621/Flowchart-of-the-TOPSIS-Method.png)
+![TOPSIS Diagram](https://www.researchgate.net/profile/Maurizio-Collu/publication/200589330/figure/fig1/AS:305998649675781@1449967171879/TOPSIS-method-diagram.png)
 
 1. Define the decision problem and the decision criteria.
 2. Normalize the decision matrix to account for the different units of measurement.
