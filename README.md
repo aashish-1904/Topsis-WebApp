@@ -14,7 +14,7 @@ To use the application, simply enter the alternatives and criteria that you want
 
 The TOPSIS method consists of several steps, which are summarized in the diagram below:
 
-![TOPSIS Diagram]([https://www.researchgate.net/publication/200589330/figure/fig1/AS:305998649675781@1449967171879/TOPSIS-method-diagram.png](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F200589330%2Ffigure%2Ffig1%2FAS%3A305998649675781%401449967171879%2FTOPSIS-method-diagram.png&imgrefurl=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FTOPSIS-method-diagram_fig1_200589330&tbnid=6K47jkULr0s4YM&vet=12ahUKEwiJ7JbPvIz9AhUbxaACHZHVBzQQMygCegUIARC4AQ..i&docid=rPZ1clken9YeTM&w=850&h=237&q=topsis%20diagram&client=safari&ved=2ahUKEwiJ7JbPvIz9AhUbxaACHZHVBzQQMygCegUIARC4AQ))
+![TOPSIS Diagram](https://www.researchgate.net/publication/200589330/figure/fig1/AS:305998649675781@1449967171879/TOPSIS-method-diagram.png)
 
 1. Define the decision problem and the decision criteria.
 2. Normalize the decision matrix to account for the different units of measurement.
