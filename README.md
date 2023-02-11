@@ -2,6 +2,14 @@
 
 This repository contains the code for a web application that implements the Technique for Order Performance by Similarity to Ideal Solution (TOPSIS) method. The application is built using the Streamlit framework for Python and allows users to input multiple alternatives and criteria, and then calculates the relative closeness of each alternative to the ideal solution based on the TOPSIS method.
 
+## Index
+
+- [Demo](#demo)
+- [Usage](#usage)
+- [Diagram of the TOPSIS Process](#diagram-of-the-topsis-process)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Demo
 
 A demo of the application is available at [topsis.streamlit.app](https://topsis.streamlit.app). You can use the demo to see how the application works and how you can use it to perform multi-criteria decision analysis.
@@ -14,7 +22,7 @@ To use the application, simply enter the alternatives and criteria that you want
 
 The TOPSIS method consists of several steps, which are summarized in the diagram below:
 
-![TOPSIS Diagram](https://www.researchgate.net/profile/Maurizio-Collu/publication/200589330/figure/fig1/AS:305998649675781@1449967171879/TOPSIS-method-diagram.png)
+![TOPSIS Diagram](https://www.researchgate.net/publication/338653937/figure/fig1/AS:812243018416130@1568345754621/Flowchart-of-the-TOPSIS-Method.png)
 
 1. Define the decision problem and the decision criteria.
 2. Normalize the decision matrix to account for the different units of measurement.
@@ -26,10 +34,6 @@ The TOPSIS method consists of several steps, which are summarized in the diagram
 ## Contributing
 
 If you would like to contribute to this repository, you can do so by submitting a pull request. Any contributions, including bug fixes and new features, are welcome.
-
-## Support
-
-If you have any questions or issues with the code, you can create an issue in the repository or contact the repository owner for assistance.
 
 ## License
 
