@@ -6,7 +6,7 @@ This repository contains the code for a web application that implements the Tech
 
 - [Demo](#demo)
 - [Usage](#usage)
-- [Diagram of the TOPSIS Process](#diagram-of-the-topsis-process)
+- [TOPSIS Process](#topsis-process)
 - [Contributing](#contributing)
 - [License](#license)
 
