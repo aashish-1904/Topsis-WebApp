@@ -20,9 +20,7 @@ To use the application, simply enter the alternatives and criteria that you want
 
 ## TOPSIS Process
 
-The TOPSIS method consists of several steps, which are summarized in the diagram below:
-
-![TOPSIS Diagram](https://www.researchgate.net/profile/Maurizio-Collu/publication/200589330/figure/fig1/AS:305998649675781@1449967171879/TOPSIS-method-diagram.png)
+The TOPSIS method consists of several steps, which are summarized below:
 
 1. Define the decision problem and the decision criteria.
 2. Normalize the decision matrix to account for the different units of measurement.
