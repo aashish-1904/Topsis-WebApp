@@ -12,17 +12,16 @@ To use the application, simply enter the alternatives and criteria that you want
 
 ## Diagram of the TOPSIS Process
 
-The TOPSIS method consists of several steps, which are shown in the following diagram:
+The TOPSIS method consists of several steps, which are summarized in the diagram below:
 
-1. Determine the decision criteria and normalize the decision matrix.
-2. Create the weighted decision matrix.
-3. Determine the positive ideal solution and the negative ideal solution.
-4. Calculate the relative closeness of each alternative to the ideal solution.
-5. Rank the alternatives based on their relative closeness to the ideal solution.
+![TOPSIS Diagram](https://www.researchgate.net/publication/200589330/figure/fig1/AS:305998649675781@1449967171879/TOPSIS-method-diagram.png)
 
-The following diagram illustrates the process of the TOPSIS method:
-
-![TOPSIS Process](https://www.mdeanmedical.com/wp-content/uploads/2019/03/TOPSIS-Method-Step-by-Step.png)
+1. Define the decision problem and the decision criteria.
+2. Normalize the decision matrix to account for the different units of measurement.
+3. Determine the weights for each criterion based on their relative importance.
+4. Calculate the positive ideal solution and the negative ideal solution.
+5. Calculate the relative closeness of each alternative to the ideal solution.
+6. Rank the alternatives based on their relative closeness to the ideal solution.
 
 ## Contributing
 
