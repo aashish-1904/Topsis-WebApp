@@ -3,7 +3,9 @@ import pandas as pd
 from topsis import topsis
 
 st.set_page_config("MCDM using TOPSIS")
+st.header("TOPSIS")
 st.title("TOPSIS")
+
 
 dataset = st.file_uploader("Upload your dataset for MCDM analysis using topsis", type=['csv'], accept_multiple_files=False, help="Click on 'Browse Files' > Choose your '.csv' file > Click 'Upload'")
 weights=[]
